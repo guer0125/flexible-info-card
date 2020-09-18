@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  background-color: #ccc;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h2 {
+  text-align: center;
+}
+body {
+  margin: 0;
+}
+
+a {
+  background-color: #444;
+  color: #ccc;
+  height: 2rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+img {
+  width: 5rem;
+}
+
+p {
+  width: 24rem;
+}
