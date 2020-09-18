@@ -25,6 +25,8 @@ a {
 ul {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
 }
 
 li {
@@ -35,10 +37,14 @@ li {
   margin-bottom: 1.5rem;
 }
 
-img {
-  width: 5rem;
-}
-
 p {
   width: 24rem;
+}
+
+hgroup {
+  width: 16rem;
+}
+
+img {
+  width: 5rem;
 }
