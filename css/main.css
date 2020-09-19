@@ -24,7 +24,7 @@ a {
 }
 
 ul {
-  display: flex;
+  displa
   flex-direction: column;
   justify-content: center;
   padding: 2rem;
